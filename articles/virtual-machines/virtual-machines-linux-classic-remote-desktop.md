@@ -96,9 +96,10 @@ Then enable `xfce`, use:
 
 Edit the config file `/etc/xrdp/startwm.sh`, use:
 
-    #sudo vi /etc/xrdp/startwm.sh   
+    #sudo nano /etc/xrdp/startwm.sh   
 
 Add line `xfce4-session` before the line `/etc/X11/Xsession`.
+Save the file using "ctrl+X"
 
 Restart xrdp service, use:
 
